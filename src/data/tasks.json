@@ -5,7 +5,7 @@
     "description": "Finish math and science assignments",
     "status": "pending",
     "priority": "high",
-    "dueDate": "2026-04-26"
+    "username": "Jhone Doe"
   },
   {
     "id": 2,
@@ -13,6 +13,7 @@
     "description": "Buy vegetables, fruits, and milk",
     "status": "in-progress",
     "priority": "medium",
+    "username": "James Smith",
     "dueDate": "2026-04-25"
   },
   {
@@ -21,7 +22,7 @@
     "description": "30 minutes of exercise",
     "status": "completed",
     "priority": "low",
-    "dueDate": "2026-04-24"
+    "username": "Kamal Patel"
   },
   {
     "id": 4,
@@ -29,7 +30,7 @@
     "description": "Practice functions and arrays",
     "status": "pending",
     "priority": "high",
-    "dueDate": "2026-04-27"
+    "username": "Jong Song"
   },
   {
     "id": 5,
@@ -37,6 +38,6 @@
     "description": "Create a simple todo app",
     "status": "pending",
     "priority": "medium",
-    "dueDate": "2026-04-28"
+    "username": "Nihal Kumar"
   }
 ]
