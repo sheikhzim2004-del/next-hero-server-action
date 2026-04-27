@@ -11,8 +11,8 @@ const Navbar = () => {
                     <p className="font-bold">ACME</p>
                 </div>
                 <ul className="flex items-center gap-4">
-                    <li><Link href="#">Features</Link></li>
-                    <li><Link href="#">Pricing</Link></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/tasks">Tasks</Link></li>
                 </ul>
                 <div>
                     <ThemeSwitch></ThemeSwitch>
