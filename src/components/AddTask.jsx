@@ -2,11 +2,15 @@
 
 import { CirclePlus } from "@gravity-ui/icons";
 import { Button, Input, Label, ListBox, Modal, Surface, TextField, Select } from "@heroui/react";
+import Link from "next/link";
 
 export function AddTask({ createATask }) {
   return (
     <Modal>
-      <Button variant="secondary">Add a Task</Button>
+      <Button variant="secondary">Add a Task by Modal</Button>
+      <Link href="/tasks/new">
+      <button variant="secondary">Add Task by New Page</button>
+      </Link>
       <Modal.Backdrop>
         <Modal.Container placement="auto">
           <Modal.Dialog className="sm:max-w-md">
