@@ -12,7 +12,7 @@ const TaskPage = async () => {
         <div className='container mx-auto mt-6'>
             <div className='flex gap-4 justify-center items-center'>
                 <h2 className='text-xl text-amber-600'>Task: {tasks.length}</h2>
-                <AddTask creatATask={createATask}></AddTask>
+                <AddTask createATask={createATask}></AddTask>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-4'>
                 {
