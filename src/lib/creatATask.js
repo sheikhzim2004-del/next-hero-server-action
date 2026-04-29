@@ -1,7 +1,14 @@
+import { revalidatePath } from "next/cache";
+import { postTask } from "./tasks";
+
 export const createATask = async (formData) => {
 "use server";
+const newTask = Object.fromEntries(formData.entries());
 
-const name = formData.get("name");
+const res = await postTask(newTask);
 
-console.log('add a task with name: ', name);
+if(res.ok){
+  revalidatePath('/tasks');
+}
+return res;
 }

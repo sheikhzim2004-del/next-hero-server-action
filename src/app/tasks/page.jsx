@@ -7,7 +7,7 @@ import React from 'react';
 const TaskPage = async () => {
 
     const tasks = await getTasks();
-
+    console.log('tasks: ', tasks);
     return (
         <div className='container mx-auto mt-6'>
             <div className='flex gap-4 justify-center items-center'>
